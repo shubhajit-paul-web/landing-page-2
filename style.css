@@ -1,142 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lexend+Deca:wght@600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lexend+Deca:wght@600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style-type: none;
+   text-decoration: none;
+   font-family: "Poppins", sans-serif;
 }
 
 body {
-    height: 100vh;
-    /* background-color: #c8d6f5; */
-    position: relative;
+   height: 100vh;
+   position: relative;
 }
 
-i,a {
-    cursor: pointer;
+i,
+a {
+   cursor: pointer;
 }
 
 .main-container {
-    width: 84%;
-    height: 92%;
-    background-color: #fff;
-    box-shadow: 0px 0px 180px #6cb3ff;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 /* Main Left */
 
 .main-left .nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-block: 40px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-block: 40px;
 }
 
 .main-left .nav ul li:first-child {
-    margin-right: 20%;
-    font-size: 28px;
-    color: #bebebe;
+   margin-right: 20%;
+   font-size: 28px;
+   color: #bebebe;
 }
 
 .main-left .nav ul li a,
 .hero .button a {
-    font-size: 18px;
-    font-weight: 500;
-    color: #bebebe;
-    padding: 5px 0;
+   font-size: 18px;
+   font-weight: 500;
+   color: #bebebe;
+   padding: 5px 0;
 }
 
 .active {
-    color: #333 !important;
-    border-bottom: 2px solid #aeaeae;
+   color: #333 !important;
+   border-bottom: 2px solid #aeaeae;
 }
 
 .main-left .nav ul li a i {
-    font-size: 24px;
-    color: #2ba7ff;
+   font-size: 24px;
+   color: #2ba7ff;
 }
 
 .hero {
-    padding: 20%;
+   padding: 20%;
 }
 
 .hero h1 {
-    font-size: 64px;
-    color: #2c2c2c;
+   font-size: 64px;
+   color: #2c2c2c;
 }
 
 .hero p {
-    color: #b3b3b3;
-    font-weight: 500;
-    font-size: 17px;
-    margin-block: 30px;
+   color: #b3b3b3;
+   font-weight: 500;
+   font-size: 17px;
+   margin-block: 30px;
 }
-
 
 /* Main Right */
 
 .main-right {
-    width: 60%;
-    height: 100%;
+   width: 60%;
+   height: 100%;
 }
 
 .main-right .right-top {
-    width: 100%;
-    height: 50%;
-    display: flex;
+   width: 100%;
+   height: 50%;
+   display: flex;
 }
 
 .main-right .right-top .right-top-left,
 .main-right .right-top .right-top-right {
-    width: 50%;
-    height: 100%;
+   width: 50%;
+   height: 100%;
 }
 
 .main-right .right-top .right-top-left {
-    background: url(https://m.media-amazon.com/images/I/61sa9X8GAuS._SL1500_.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+   background: url(https://m.media-amazon.com/images/I/61sa9X8GAuS._SL1500_.jpg)
+      no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 .main-right .right-top .right-top-right {
-    background: url(https://images.unsplash.com/photo-1517281749396-564b95a206c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHw0OHx8b3BlbiUyMGZydWl0fGVufDB8fHx8MTY2OTEwODk0OQ&ixlib=rb-4.0.3&q=80&w=1080) no-repeat;
-    background-position: center;
-    background-size: cover;
+   background: url(https://images.unsplash.com/photo-1517281749396-564b95a206c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHw0OHx8b3BlbiUyMGZydWl0fGVufDB8fHx8MTY2OTEwODk0OQ&ixlib=rb-4.0.3&q=80&w=1080)
+      no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 .main-right .right-bottom {
-    width: 100%;
-    height: 50%;
-    background: url(https://5.imimg.com/data5/SELLER/Default/2023/2/QD/BO/IL/184489596/flower-pots-1000x1000.jpg) no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
+   width: 100%;
+   height: 50%;
+   background: url(https://5.imimg.com/data5/SELLER/Default/2023/2/QD/BO/IL/184489596/flower-pots-1000x1000.jpg)
+      no-repeat;
+   background-position: bottom;
+   background-size: cover;
+   display: flex;
+   align-items: flex-end;
 }
 
 .main-right .right-bottom .pagination {
-    display: inline-block;
-    width: 140px;
-    height: 80px;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+   display: inline-block;
+   width: 140px;
+   height: 80px;
+   background-color: #fff;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
 }
 
 .main-right .right-bottom .pagination i {
-    font-size: 18px;
+   font-size: 18px;
 }
-
-
-
